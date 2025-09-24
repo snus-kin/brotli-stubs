@@ -5,7 +5,7 @@ requires-python = ">=3.13"
 description = "Type stubs for the brotli library"
 readme = "README.md"
 authors = [
-  { name = "Your Name", email = "your@email.com" },
+  { name = "Thomas Carroll", email = "tcarroll@snufk.in" },
 ]
 license = { file = "LICENSE.md" }
 classifiers = [
@@ -23,3 +23,9 @@ build-backend = "uv_build"
 
 [tool.uv.build-backend]
 module-name = "brotli-stubs"
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.31.4",
+    "ruff>=0.13.1",
+]
