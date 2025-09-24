@@ -1,3 +1,3 @@
-# types-brotli
+# brotli-stubs
 
-Types for brotli
+Type stubs for [brotli](https://github.com/google/brotli/tree/master/python)
