@@ -1,6 +1,6 @@
 [project]
 name = "brotli-stubs"
-version = "1.1.0"
+version = "1.2.0"
 requires-python = ">=3.8"
 description = "Type stubs for the brotli library"
 readme = "README.md"
@@ -14,7 +14,7 @@ classifiers = [
     "Typing :: Stubs Only", # This classifier is important!
 ]
 dependencies = [
-    "brotli==1.1.0",
+    "brotli==1.2.0",
 ]
 
 [build-system]
