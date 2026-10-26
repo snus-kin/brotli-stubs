@@ -1,6 +1,6 @@
 [project]
 name = "brotli-stubs"
-version = "1.2.0"
+version = "1.2.1"
 requires-python = ">=3.8"
 description = "Type stubs for the brotli library"
 readme = "README.md"
