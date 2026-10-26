@@ -14,7 +14,7 @@ classifiers = [
     "Typing :: Stubs Only", # This classifier is important!
 ]
 dependencies = [
-    "brotli==1.2.0",
+    "brotli==1.2.1",
 ]
 
 [build-system]
